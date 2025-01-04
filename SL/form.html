@@ -21,7 +21,7 @@
     
             <div class="nav-center">
                 <a href="home.html">
-                    <img src="img/logo.webp" alt="SportLife Logo" class="navbar-logo">
+                    <img src="http://localhost:8080/images/other/logo.webp" alt="SportLife Logo" class="navbar-logo">
                 </a>
             </div>
     
@@ -34,21 +34,21 @@
     </header>
     <div class="form-container">
         <div class="form-inner">
-            <h2>Заполните форму</h2>
-            <form id="registerForm">
-                <input type="text" id="name" placeholder="Имя" required>
+            <h2>Авторизация</h2>
+            <form id="login-form">
                 <input type="email" id="email" placeholder="Email" required>
-                <input type="tel" id="phone" placeholder="Телефон" required>
-                <button type="submit">Отправить</button>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
             </form>
-            <div id="responseMessage"></div>
+            <button id="register-button">Register</button>
         </div>
     </div>
+    
     
 <footer>
     <div class="footer-container">
         <div class="footer-section logo-section">
-            <img src="img/logo.webp" alt="SportLife Logo" class="footer-logo" />
+            <img src="http://localhost:8080/images/other/logo.webp  " alt="SportLife Logo" class="footer-logo" />
             <p>Powered by SportLife</p>
             <div class="social-icons">
                 <a href="https://www.instagram.com/sport_life_shymkent/" target="_blank">
@@ -87,6 +87,6 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/form.js"></script>
+<script src="js/login.js"></script>
 </body>
 </html>

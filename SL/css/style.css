@@ -1038,6 +1038,7 @@ section .row {
 .form-inner button {
     width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
     background-color: #15830f;
     color: #fff;
     border: none;
@@ -1048,17 +1049,12 @@ section .row {
 .form-inner button:hover {
     background-color: #ffcc00;
 }
-#responseMessage {
-    margin-top: 10px;
-    text-align: center;
-}
-
 /* Booking styles */
 .booking-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
     height: 100vh;
@@ -1068,6 +1064,8 @@ section .row {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
+    display: flex;
+    gap: 20px;
 }
 .booking-inner h2 {
     font-size: 20px;
@@ -1092,6 +1090,7 @@ section .row {
 .booking-inner button {
     width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
     background-color: #15830f;
     color: #fff;
     border: none;
@@ -1101,4 +1100,15 @@ section .row {
 }
 .booking-inner button:hover {
     background-color: #ffcc00;
+}
+.booking-inner #bookings-list {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #0a1f44;
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
